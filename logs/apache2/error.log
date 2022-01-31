@@ -1,0 +1,23 @@
+[Sun Jan 16 07:21:52.268515 2022] [:notice] [pid 8] ModSecurity for Apache/2.9.2 (http://www.modsecurity.org/) configured.
+[Sun Jan 16 07:21:52.268564 2022] [:notice] [pid 8] ModSecurity: APR compiled version="1.6.2"; loaded version="1.6.3"
+[Sun Jan 16 07:21:52.268567 2022] [:warn] [pid 8] ModSecurity: Loaded APR do not match with compiled!
+[Sun Jan 16 07:21:52.268569 2022] [:notice] [pid 8] ModSecurity: PCRE compiled version="8.39 "; loaded version="8.39 2016-06-14"
+[Sun Jan 16 07:21:52.268576 2022] [:notice] [pid 8] ModSecurity: LUA compiled version="Lua 5.1"
+[Sun Jan 16 07:21:52.268577 2022] [:notice] [pid 8] ModSecurity: YAJL compiled version="2.1.0"
+[Sun Jan 16 07:21:52.268579 2022] [:notice] [pid 8] ModSecurity: LIBXML compiled version="2.9.4"
+[Sun Jan 16 07:21:52.268581 2022] [:notice] [pid 8] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 16 07:21:52.296184 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Jan 16 07:21:52.296205 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Jan 16 07:23:12.798340 2022] [php7:error] [pid 10] [client 172.17.0.1:54782] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /var/www/html/test.php:8\nStack trace:\n#0 {main}\n  thrown in /var/www/html/test.php on line 8, referer: http://localhost/
+[Sun Jan 16 11:02:57.175694 2022] [:notice] [pid 8] ModSecurity for Apache/2.9.2 (http://www.modsecurity.org/) configured.
+[Sun Jan 16 11:02:57.175768 2022] [:notice] [pid 8] ModSecurity: APR compiled version="1.6.2"; loaded version="1.6.3"
+[Sun Jan 16 11:02:57.175773 2022] [:warn] [pid 8] ModSecurity: Loaded APR do not match with compiled!
+[Sun Jan 16 11:02:57.175777 2022] [:notice] [pid 8] ModSecurity: PCRE compiled version="8.39 "; loaded version="8.39 2016-06-14"
+[Sun Jan 16 11:02:57.175784 2022] [:notice] [pid 8] ModSecurity: LUA compiled version="Lua 5.1"
+[Sun Jan 16 11:02:57.175787 2022] [:notice] [pid 8] ModSecurity: YAJL compiled version="2.1.0"
+[Sun Jan 16 11:02:57.175790 2022] [:notice] [pid 8] ModSecurity: LIBXML compiled version="2.9.4"
+[Sun Jan 16 11:02:57.175793 2022] [:notice] [pid 8] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Jan 16 11:02:57.202720 2022] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Sun Jan 16 11:02:57.202742 2022] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

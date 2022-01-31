@@ -1,0 +1,4 @@
+172.17.0.4:80 172.17.0.1 - - [16/Jan/2022:07:23:10 +0000] "GET / HTTP/1.1" 200 660 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0"
+172.17.0.4:80 172.17.0.1 - - [16/Jan/2022:07:23:10 +0000] "GET /icons/blank.gif HTTP/1.1" 200 431 "http://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0"
+172.17.0.4:80 172.17.0.1 - - [16/Jan/2022:07:23:10 +0000] "GET /icons/unknown.gif HTTP/1.1" 200 528 "http://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0"
+172.17.0.4:80 172.17.0.1 - - [16/Jan/2022:07:23:12 +0000] "GET /test.php HTTP/1.1" 500 186 "http://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0"
